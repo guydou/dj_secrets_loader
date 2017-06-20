@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='dj-secrets-loader',
-    version='0.0.1',
+    version='0.0.4',
     url='https://github.com/guydou/dj_secrets_loader',
     license='BSD',
     author='Guy Doulberg',
@@ -22,7 +22,6 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',

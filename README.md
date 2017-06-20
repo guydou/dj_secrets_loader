@@ -18,4 +18,4 @@ secrets = load_secrets()
 The result will be a dictionary that it's keys are the filenames in docker secret folder ('/run/secrets/') and the value is the content of that file
 
 
-
+I am using os.scandir so it not supported in python 2.7
