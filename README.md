@@ -1,14 +1,14 @@
 # dj-secrets-loader
 
-The purpose of this project is to make docker secerts available in Django setting page
+The purpose of this project is to make docker secrets available in Django settings.py 
 
-##Install
+## Install
 ```
 pip install dj-secrets-loader
 ```
 
-##Usage
-in setting page 
+## Usage
+in setting.py
 
 ```
 from dj_secrets_loader import load_secrets
