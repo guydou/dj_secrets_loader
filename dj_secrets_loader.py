@@ -1,6 +1,5 @@
 import os
 
-
 def load_secrets(path='/run/secrets'):
     """
     load_secrets
@@ -8,10 +7,11 @@ def load_secrets(path='/run/secrets'):
     :param path:"""
     secrets = {}
     if os.path.isdir(path):
-        files = os.scandir(path)
-        for _file in files:
-            if _file.is_file():
-                with open(_file.path, 'r') as content:
+        files = os.listdir(path)
+        for filename in files:
+            full_filename = os.path.join(path, filename)
+            if os.path.isfile(full_filename):
+                with open(full_filename, 'r') as content:
                     value = content.read()
-                secrets[_file.name] = value
+                secrets[filename] = value
     return secrets
