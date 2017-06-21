@@ -1,5 +1,6 @@
 import os
 
+
 def load_secrets(path='/run/secrets'):
     """
     load_secrets

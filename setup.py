@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='dj-secrets-loader',
-    version='0.0.4',
+    version='0.0.5',
     url='https://github.com/guydou/dj_secrets_loader',
     license='BSD',
     author='Guy Doulberg',
